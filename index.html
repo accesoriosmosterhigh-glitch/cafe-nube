@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Café Nube: café de especialidad, bebidas y repostería artesanal en Monterrey.">
+  <title>Café Nube | Café de especialidad</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Café Nube, ir al inicio">
+        <span class="brand-mark" aria-hidden="true">☁</span>
+        <span>Café Nube</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="titulo-principal">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">CAFÉ · PAN ARTESANAL · BUENOS MOMENTOS</p>
+          <h1 id="titulo-principal">Una pausa que sabe a algo especial.</h1>
+          <p>Disfruta café de especialidad y repostería recién hecha en un espacio creado para compartir, trabajar o simplemente respirar.</p>
+          <a class="button button-primary" href="#productos">Conoce el menú</a>
+        </div>
+        <div class="hero-art" role="img" aria-label="Ilustración decorativa de una taza de café sobre una mesa">
+          <div class="sun"></div><div class="cup"><span></span></div><div class="plate"></div>
+          <p>Hecho con calma<br>servido con cariño.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="productos" aria-labelledby="titulo-productos">
+      <div class="container">
+        <p class="eyebrow">NUESTRO MENÚ</p>
+        <h2 id="titulo-productos">Favoritos de la casa</h2>
+        <p class="section-intro">Opciones preparadas al momento con ingredientes seleccionados.</p>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-icon" aria-hidden="true">☕</div>
+            <h3>Latte de la casa</h3>
+            <p>Espresso equilibrado con leche cremosa y una textura suave.</p>
+            <p class="price">$65 MXN</p>
+          </article>
+          <article class="product-card">
+            <div class="product-icon" aria-hidden="true">🥐</div>
+            <h3>Pan artesanal</h3>
+            <p>Horneado diariamente, dorado por fuera y suave por dentro.</p>
+            <p class="price">$48 MXN</p>
+          </article>
+          <article class="product-card">
+            <div class="product-icon" aria-hidden="true">🍰</div>
+            <h3>Pastel de temporada</h3>
+            <p>Una rebanada dulce que cambia según los ingredientes de estación.</p>
+            <p class="price">$72 MXN</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="nosotros" aria-labelledby="titulo-nosotros">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">UN LUGAR PARA TI</p>
+          <h2 id="titulo-nosotros">Pequeños momentos, grandes conversaciones.</h2>
+        </div>
+        <p>En Café Nube creemos que un buen café puede transformar el día. Creamos un ambiente cómodo, atención cercana y productos sencillos preparados con dedicación. Puedes visitarnos para comenzar la mañana, reunirte o hacer una pausa.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto" aria-labelledby="titulo-contacto">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">ESTAMOS PARA ATENDERTE</p>
+          <h2 id="titulo-contacto">¿Nos visitas pronto?</h2>
+          <p>Escríbenos para consultar el menú, hacer un comentario o conocer nuestros horarios.</p>
+          <ul class="contact-details">
+            <li><strong>Dirección:</strong> Monterrey, Nuevo León (dirección de ejemplo).</li>
+            <li><strong>Horario:</strong> Lunes a sábado, 8:00 a 20:00 h.</li>
+            <li><strong>Correo:</strong> hola@cafenube.example</li>
+          </ul>
+        </div>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-field">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="correo">Correo electrónico</label>
+            <input id="correo" name="correo" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          </div>
+          <button class="button button-primary" type="submit">Enviar mensaje</button>
+          <p class="form-note">Demostración visual: para recibir mensajes reales se debe conectar el formulario a un servicio o servidor.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Café Nube. Proyecto académico de Programación Web.</p>
+      <a href="#inicio">Volver al inicio ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
